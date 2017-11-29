@@ -1,19 +1,40 @@
+#copyright p {
+    font-size: 20px;
+}
+
 #nav-custom {
 	background-color: #000;
 	color: #868e96;
     overflow: hidden;
 }
 
-#home-text {
-    font-size: 30px;
-}
 
 #home-album-link {
     color: #fff;
 }
 
-#img-container {
+.audio-container {
+    margin: 30px 15px;
+}
+
+.video-container {
+    margin: 30px 0;
+}
+
+.booking-group {
+    margin-bottom: 1em;
+}
+
+.contact-heading {
+    color: #fff;
+}
+
+.img-container-home {
     margin-bottom: 5px;
+}
+
+.img-container {
+    margin-bottom: 25px;
 }
 
 .footer {
@@ -40,13 +61,13 @@ body {
     font-family: 'Agency FB', arial;
 }
 
-p {
+p, span {
     color: #606060;
-    font-size: 20px;
+    font-size: 30px;
 }
 
-@media (max-width: 490px) {
-    #home-text {
-    font-size: 22px;
-}
+@media (max-width: 550px) {
+    body, p, span {
+        font-size: 18px;
+    }
 }

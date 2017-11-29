@@ -4,7 +4,8 @@
 		<!-- Developed by Matthew Stinis, November 2017 -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="styles/custom.css">
-		<script src="https://use.fontawesome.com/c2c3c857ab.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<title>The Marquis | Home</title>
 	</head>
 	<body>
@@ -12,16 +13,16 @@
 		<!-- navigation menu -->
 
 		<nav class="navbar navbar-expand-lg navbar-dark" id="nav-custom">
-			<a class="navbar-brand" href="#">Home</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<a class="navbar-brand" href="./index.html">Home</a>
+			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="collapse show navbar-collapse in" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
-					<a class="nav-item nav-link" href="#">Audio</a>
-					<a class="nav-item nav-link" href="#">Video</a>
-					<a class="nav-item nav-link" href="#">Tour</a>
-					<a class="nav-item nav-link" href="#">Contact</a>
+					<a class="nav-item nav-link" href="./audio.html">Audio</a>
+					<a class="nav-item nav-link" href="./video.html">Video</a>
+					<a class="nav-item nav-link" href="./tour.html">Tour</a>
+					<a class="nav-item nav-link" href="./contact.html">Contact</a>
 				</div>
 			</div>
 		</nav>
@@ -30,7 +31,7 @@
 
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-10">
+				<div class="col-9">
 					<img src="images/marquis_header.png" class="img-fluid" id="img-container" alt="Responsive image">
 				</div>
 			</div>
@@ -40,11 +41,9 @@
 				</div>				
 			</div>
 			<div class="row justify-content-center">
-				<div class="col-5">
-					<p class="text-muted">
-						DEBUT ALBUM <a id="home-album" href="#">'UNSATISFIED'</a> OUT NOW
-					</p>
-				</div>
+				<p id="home-text">
+					DEBUT ALBUM <a id="home-album-link" href="#">'UNSATISFIED'</a> OUT NOW
+				</p>
 			</div>	
 		</div>
 
@@ -53,16 +52,14 @@
 		<footer class="footer">
 			<div class="container">
 				<div class="row justify-content-center">
-					<div class="col-4">
 						<a href="#"><img class="icon-list" id="soundcloud-icon" src="images/logos/soundcloud_img.png"></a>
 						<a href="#"><img class="icon-list" src="images/logos/facebook_logo.png"></a>
 						<a href="#"><img class="icon-list" src="images/logos/twitter_logo.png"></a>
 						<a href="#"><img class="icon-list" src="images/logos/email_logo.png"></a>
-					</div>
 				</div>
 				<div class="row justify-content-center">
-					<div class="col-4" id="copyright">
-						<span class="text-muted">© Copyright 2018</span>
+					<div id="copyright">
+						<p>© Copyright 2018</p>
 					</div>
 				</div>		
 			</div>
