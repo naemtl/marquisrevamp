@@ -10,25 +10,27 @@
     <link rel="stylesheet" type="text/css" href="styles/custom.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <title>The Marquis | Home</title>
+    <title>The Marquis | Contact</title>
 </head>
 <body>
 
     <!-- navigation menu -->
 
     <nav class="navbar navbar-expand-lg navbar-dark" id="nav-custom">
-            <a class="navbar-brand" href="./index.html">Home</a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse show navbar-collapse in" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="./audio.html">Audio</a>
-                    <a class="nav-item nav-link" href="./video.html">Video</a>
-                    <a class="nav-item nav-link" href="./tour.html">Tour</a>
-                    <a class="nav-item nav-link" href="./contact.html">Contact</a>
-                </div>
+        <a class="navbar-brand" href="./index.html">
+            <img src="images/logos/cross1.png">
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse show navbar-collapse in" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="./audio.html">Audio</a>
+                <a class="nav-item nav-link" href="./video.html">Video</a>
+                <a class="nav-item nav-link" href="./tour.html">Tour</a>
+                <a class="nav-item nav-link active" href="./contact.html">Contact</a>
             </div>
+        </div>
     </nav>
 
     <!-- header and album art images -->
@@ -46,8 +48,8 @@
                     EU/UK booking:
                 </span>
                 <br>
-                <span>    
-                    ssecretritualss@gmail.com (Adam Drzewiecki) 
+                <span class="contact-address">
+                    <a href="mailto:ssecretritualss@gmail.com">ssecretritualss@gmail.com</a> (Adam Drzewiecki) 
                 </span>
             </div>
         </div>    
@@ -57,8 +59,8 @@
                     N.A. booking &amp; press:
                 </span>    
                 <br>
-                <span>    
-                    master@themarquisofficial.com
+                <span class="contact-address">
+                    <a href="mailto:master@themarquisofficial.com">master@themarquisofficial.com</a>    
                 </span>
             </div>
         </div>
@@ -70,14 +72,18 @@
     <footer class="footer">
         <div class="container">
             <div class="row justify-content-center">
-                <a href="#"><img class="icon-list" id="soundcloud-icon" src="images/logos/soundcloud_img.png"></a>
-                <a href="#"><img class="icon-list" src="images/logos/facebook_logo.png"></a>
-                <a href="#"><img class="icon-list" src="images/logos/twitter_logo.png"></a>
-                <a href="#"><img class="icon-list" src="images/logos/email_logo.png"></a>
+                <div class="col-xs-12">
+                    <a target="_blank" href="https://soundcloud.com/themarquisofficial"><img class="icon-list" id="soundcloud-icon" src="images/logos/soundcloud_img.png"></a>
+                    <a target="_blank" href="https://www.facebook.com/themarquisofficial/"><img class="icon-list" src="images/logos/facebook_logo.png"></a>
+                    <a target="_blank" href="https://twitter.com/the_marquis_is"><img class="icon-list" src="images/logos/twitter_logo.png"></a>
+                    <a target="_blank" href="mailto:master@themarquisofficial.com"><img class="icon-list" src="images/logos/email_logo.png"></a>
+                </div>
             </div>
             <div class="row justify-content-center">
-                <div id="copyright">
-                    <p>© Copyright 2018</p>
+                <div class="col-xs-12">
+                    <div id="copyright">
+                        <p>© Copyright 2018</p>
+                    </div>
                 </div>
             </div>      
         </div>

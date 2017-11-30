@@ -25,6 +25,10 @@
     margin-bottom: 1em;
 }
 
+.contact-address a {
+    color: #606060;
+}
+
 .contact-heading {
     color: #fff;
 }
