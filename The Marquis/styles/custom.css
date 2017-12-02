@@ -72,6 +72,6 @@ p, span {
 
 @media (max-width: 550px) {
     body, p, span {
-        font-size: 18px;
+        font-size: 22px;
     }
 }
