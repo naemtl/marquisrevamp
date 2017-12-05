@@ -55,6 +55,23 @@
 	margin: 0 5px 0 5px;
 }
 
+.table-custom {
+    color: #fff;
+}
+
+.table th {
+    padding: 0.68rem;
+    border: none;
+    font-size: 26px;
+}
+
+.table td {
+    border-top: none;
+    padding: 0.68rem;
+    color: #606060;
+    font-size: 26px;
+}
+
 @font-face {
     font-family: 'Agency FB';
     src: url('../fonts/AGENCYR.ttf') format('truetype');
@@ -75,3 +92,16 @@ p, span {
         font-size: 22px;
     }
 }
+
+@media (max-width: 768px) {
+    .table th {
+        font-size: 15px;
+    }
+
+    .table td {
+        font-size: 15px;
+    }
+}
+
+
+
